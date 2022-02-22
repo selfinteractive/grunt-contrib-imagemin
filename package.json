@@ -14,7 +14,8 @@
   "scripts": {
     "ava": "ava",
     "test": "npm run xo && grunt && npm run ava && del-cli tmp",
-    "xo": "xo"
+    "xo": "xo",
+		"prepare": "npm install"
   },
   "files": [
     "tasks"
